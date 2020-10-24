@@ -22,7 +22,7 @@ import recommend.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', sociallogin.views.home, name='home'),
+    path('', sociallogin.views.home, name='home'),
     path('login/', sociallogin.views.login, name='login'),
     path('info/', sociallogin.views.info, name='info'),
     path('accounts/', include('allauth.urls')),

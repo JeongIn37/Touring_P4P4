@@ -154,4 +154,4 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 DISQUS_WEBSITE_SHORTNAME='touring-1'
 
-ALLOWED_HOSTS = ['touring-env.eba-kpgimicg.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['touring-env.eba-kpgimicg.us-west-2.elasticbeanstalk.com', 'localhost']
